@@ -3,11 +3,14 @@
 '**************************
 
 Dim destinataire	'Destinataire du mail
-Dim smtp		'Serveur SMTP
+Dim smtp			'Serveur SMTP
 Dim username		'Login du serveur SMTP
 Dim password		'Mot de passe du serveur SMTP
-Dim port		'Port du serveur SMTP
+Dim port			'Port du serveur SMTP
 Dim serveur 		'Nom du serveur qui test le SMTP
+Dim from			'From du mail envoyé
+Dim sender			'Affiche un sender pour le mail de test
+Dim organization	'Affiche l'organisation pour le mail de test
 
 
 '************************
@@ -25,9 +28,9 @@ destinataire	= "destinataire@domain.com"	'L'adresse destinataire du mail
 smtp 			= "smtp.domain.com"			'Nom du serveur SMTP
 username 		= "username"				'Login du serveur SMTP
 password 		= "password"				'Mot de pass du serveur SMTP
-from			= "from@domain.com"
-sender			= "TEST SMTP"
-organization	= "ORGANISATION"
+from			= "from@domain.com"			'From du mail envoyé
+sender			= "TEST SMTP"				'Affiche un sender pour le mail de test
+organization	= "ORGANISATION"			'Affiche l'organisation pour le mail de test
 port 			= 25						'Port du serveur SMTP
 serveur 		= "MON SERVEUR"				'Nom du serveur qui test l'envoi via le SMTP
 
