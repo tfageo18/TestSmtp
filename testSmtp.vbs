@@ -60,7 +60,7 @@ Function sendMail(contenu)
 	With iMsg
 	.To = destinataire
 	.From = from
-	.Subject = "TEST SMTP NCI"
+	.Subject = "TEST SMTP"
 	.HTMLBody = contenu
 	.Sender = sender
 	.Organization = organization
